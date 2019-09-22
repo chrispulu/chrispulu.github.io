@@ -41,7 +41,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 100;
 	margin-bottom: 150px;
-	font-size: .9em;
+	font-size: 2em;
 
 }
 
@@ -193,6 +193,18 @@ li {
         width: 100vw;
     }
 
+    .header {
+    max-width: 50%
+    font-size: 10px;
+    color: #E6E8FA;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 150px;
+    font-size: 2em;
+
+
   
 }
 
@@ -218,6 +230,17 @@ li {
         height: 100vh;
         width: 100vw;
     }
+
+    .header {
+    max-width: 50%
+    font-size: 10px;
+    color: #E6E8FA;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 150px;
+    font-size: 2em;
 
 
 }
