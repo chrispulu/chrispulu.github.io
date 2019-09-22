@@ -1,3 +1,20 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .main-nav {
+        font-size: .9em;
+        width: 100%;
+        padding: 1px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+    .push {
+        margin: auto;
+    }
+
+
+}
 body {
     margin: 0 auto;
     padding: 0 auto;
@@ -13,7 +30,9 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+
 /*HEADER*/
+
 .box1 {
     height: 100vh;
     width: 100%;
@@ -38,7 +57,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 100;
 	margin-bottom: 150px;
-	font-size: 2em;
+	font-size: .9em;
 
 }
 
@@ -57,9 +76,8 @@ body {
 }
 
 
-
-
 /*NAV*/
+
 .sticky{
     position: fixed;
     top: 0;
@@ -75,14 +93,9 @@ body {
     font-family: sans-serif;
     margin: 0px;
     color: #fff;
+    width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-	.main-nav {
-		font-size: .9em;
-		padding: 0;
-	}
-}
 
 a {
     text-decoration: none;
@@ -99,21 +112,9 @@ li {
     margin-left: auto;
 }
 
-/*COVER*/
-.main-cover {
-		display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  
-}
-
-img {
-    width: 30rem;
-    object-fit: cover;
-}
 
 /*PROJECT GRID*/
+
 .box2 {
     height: 100vh;
     width: 100%;
@@ -125,7 +126,7 @@ img {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, .5fr));
+    grid-template-columns: repeat(auto-fill,minmax(100px, .4fr));
     grid-gap: 7px;
     height: 100vh;
     width: 100%;
@@ -142,7 +143,9 @@ img {
     transition: transform 1s;
 }
 
-/*Footer*/
+
+/*COVER*/
+
 .box3 {
 
     background-image: url(back1.jpg);
@@ -150,6 +153,16 @@ img {
     background-position: center;
     
 }
+.main-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+
+/*Footer*/
 
 .footer {
     text-align: center;
