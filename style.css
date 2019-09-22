@@ -167,6 +167,35 @@ li {
     text-align: center;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .main-nav {
+        font-size: .9em;
+        width: 100%;
+        padding: 1px;
+        margin: 0px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .push {
+        margin: auto;
+    }
+        
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(100px, .5fr));
+        grid-gap: 7px;
+        height: 100vh;
+        width: 100vw;
+    }
+
+  
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .main-nav {
         font-size: .9em;
